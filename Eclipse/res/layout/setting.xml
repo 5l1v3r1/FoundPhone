@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true" >
+
+    </ViewFlipper>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@+id/setting_rel_lay"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="#ebebeb" >
+
+            <EditText
+                android:id="@+id/setting_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:ems="4"
+                android:inputType="phone|numberPassword"
+                android:maxLength="4"
+                android:maxWidth="50dp"
+                android:textSize="20sp"
+                android:width="50dp" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/btn_setting_password"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="22dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/setting_password"
+                android:background="@drawable/bn4_true"
+                android:onClick="setting_auth"
+                android:textColor="#F4E808"
+                android:textColorLink="#F4E808"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#FFA500"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/footer_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:shadowColor="#F4E808"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="1.5"
+                android:text="WORK TIME :  "
+                android:textColor="#008000"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/footer_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/footer_text"
+                android:text="---"
+                android:textColor="#FF0000"
+                android:textColorLink="#000"
+                android:textSize="18sp"
+                android:typeface="monospace" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

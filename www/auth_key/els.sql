@@ -1,0 +1,57 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Jan 21, 2013 at 08:34 AM
+-- Server version: 5.5.25a
+-- PHP Version: 5.4.4
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Database: `els`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `keys`
+--
+
+CREATE TABLE IF NOT EXISTS `keys` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `key` varchar(255) NOT NULL,
+  `hwid` varchar(255) NOT NULL,
+  `registered` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=20 ;
+
+--
+-- Dumping data for table `keys`
+--
+
+INSERT INTO `keys` (`id`, `created`, `key`, `hwid`, `registered`) VALUES
+(6, '2013-01-18 14:42:01', 'AUM8-AL0P-VG8M-GIKU', 'c0b2aeb050388564b0fc1c49c476772c', '2013-01-18 16:24:58'),
+(7, '2013-01-18 14:42:04', '1CNP-32S2-LAN8-Z1G4', '', '0000-00-00 00:00:00'),
+(8, '2013-01-18 14:42:15', '8M20-DSRN-EZXP-XWXN', '', '0000-00-00 00:00:00'),
+(9, '2013-01-18 14:46:09', 'LZIV-BGQD-HTZC-3MY5', '', '0000-00-00 00:00:00'),
+(11, '2013-01-18 14:46:21', 'MN0R-7SGT-ZJP3-YJEX', '', '0000-00-00 00:00:00'),
+(12, '2013-01-18 14:46:28', 'LUT8-U3NA-7B4Y-L5YL', '', '0000-00-00 00:00:00'),
+(13, '2013-01-18 14:46:29', 'REEQ-P2UP-H2FD-IIBM', '', '0000-00-00 00:00:00'),
+(14, '2013-01-18 14:46:31', 'JOD1-ZH2M-DOA7-PUQ3', '', '0000-00-00 00:00:00'),
+(15, '2013-01-18 14:46:33', 'G2N6-KYPS-IM6R-AMQG', '', '0000-00-00 00:00:00'),
+(18, '2013-01-18 15:26:01', '9ZX0-V5AR-S69P-H62Q', '', '0000-00-00 00:00:00'),
+(19, '2013-01-19 15:24:18', 'XH0W-COLC-KNUA-ONKN', '', '0000-00-00 00:00:00');
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

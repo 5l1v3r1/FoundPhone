@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FPhone</string>
+    <string name="app_setting">FPhone Setting</string>
+    <string name="app_name_picture">Get Picture</string>
+	
+	<string name="text_menu_tab_name_1">INFO</string>
+	<string name="text_menu_tab_name_2">SETTING</string>
+	<string name="text_menu_tab_name_3">REPORT</string>
+	<string name="text_menu_tab_name_4">PENDING</string>
+	<string name="text_menu_tab_name_5">ABOUT</string>
+	<string name="text_menu_tab_name_6">TEST FUNCTION</string>
+	<string name="text_menu_tab_name_7">REMOTE</string>
+	<string name="text_menu_tab_name_8">ALARMS</string>
+	
+	<string name="text_menu_1_light">LIGHT</string>
+	<string name="text_menu_1_accel">ACCEL</string>
+	<string name="text_menu_1_gps">GPS</string>
+	<string name="text_menu_1_build">BUILD</string>
+	<string name="text_menu_1_VERSION_APP">VERSION APP</string>
+	<string name="text_menu_1_getRELEASE">RELEASE</string>
+	<string name="text_menu_1_getBRAND">BRAND</string>
+	<string name="text_menu_1_getMODEL">MODEL</string>
+	<string name="text_menu_1_getDeviceId">DEVICE ID</string>
+	<string name="text_menu_1_getLine1Number">PHONE Number</string>
+	<string name="text_menu_1_getCellLocation">CELL LOCATION</string>
+	<string name="text_menu_1_license_key">LICENSE KEY</string>
+	
+	<string name="text_menu_2_admin_pass">ADMIN PASSWORD</string>
+	<string name="text_menu_2_admin_number">ADMIN PHONE NUMBER</string>
+	<string name="text_menu_2_vibrate">VIBRATE [turn off vibration]</string>
+	<string name="text_menu_2_sensors">SENSORS [send sensors value]</string>
+	<string name="text_menu_2_audio">AUDIO [enable control AUDIO setting]</string>
+	<string name="text_menu_2_gps">GPS [enable GPS]</string>
+	<string name="text_menu_2_sms">SMS [enable send data to SMS]</string>
+	<string name="text_menu_2_newsim">CHECK NEW SIM [Security option]</string>
+	<string name="text_menu_2_battery">BATTERY [get status battery]</string>
+	<string name="text_menu_2_camera">CAMERA [enable control camera]</string>
+	<string name="text_menu_2_face_rec">FACE REC [enable FaceRecorgnition]</string>
+	<string name="text_menu_2_recorder">RECORDER [enable audio record]</string>
+	<string name="text_menu_2_distance_location">DISTANCE LOCATION [Securty location]</string>
+	
+	<string name="text_menu_3_1">GPS LOCATION</string>
+	<string name="text_menu_3_2">CELL LOCATION</string>
+	<string name="text_menu_3_3">SENSOR LIGHT</string>
+	<string name="text_menu_3_4">SENSOR ACCELEROMETER</string>
+	<string name="text_menu_3_5">SENSOR TEMPERATURE</string>
+	<string name="text_menu_3_6">BATTERY LEVEL</string>
+	<string name="text_menu_3_7">IMEI</string>
+	
+	<string name="text_menu_6_0">READ CALL LIST</string>
+	<string name="text_menu_6_1">READ CONTACT LIST</string>
+	<string name="text_menu_6_2">READ SENSOR LIST</string>
+	<string name="text_menu_6_3">CHECK FOLDER</string>
+	<string name="text_menu_6_4">SEND TEST SMS</string>
+	<string name="text_menu_6_5">CREATE PHOTO</string>
+	<string name="text_menu_6_6">USE FACE RECORGNITION</string>
+	<string name="text_menu_6_7">RECORD AUDIO</string>
+	<string name="text_menu_6_8">SWITH MICROPHONE</string>
+	<string name="text_menu_6_9">GET SETTING FROM SERVER</string>
+	<string name="text_menu_6_10">CHECK LICENSE KEY</string>
+	
+	<string name="text_menu_7_1">REMOTE FROM SMS</string>
+	<string name="text_menu_7_2">REMOTE FROM SITE</string>
+	
+	<string name="text_menu_8_1">ANY VOICE CALL</string>
+	<string name="text_menu_8_2">NUMBER VOICE CALL</string>
+	<string name="text_menu_8_3">ANY INCOMING SMS</string>
+	<string name="text_menu_8_4">INCOMING SMS IN TEXT</string>
+	<string name="text_menu_8_5">INCOMING SMS IN NUMBER</string>
+	<string name="text_menu_8_6">ANY OUTGOING SMS</string>
+	<string name="text_menu_8_7">OUTGOING SMS IN TEXT</string>
+	<string name="text_menu_8_8">OUTGOING SMS IN NUMBER</string>
+	<string name="text_menu_8_9">GPS LOCATION</string>
+	<string name="text_menu_8_10">MAXIMUM SPEED LOCATION</string>
+	<string name="text_menu_8_11">MAXIMUM RANGE LOCATION</string>
+	<string name="text_menu_8_12">MINIMUM BATTERY LEVEL</string>
+	
+</resources>

